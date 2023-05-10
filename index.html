@@ -14,6 +14,7 @@
         <h2 id="title"></h2>
         <p>Take that and go away!</p>
         <p><img id="url" src="#"></p> <p id="subreddit">Current Subreddit: </p>
+        <button onclick="window.location.reload();">Refresh page!</button>
     </body>
     <script> 
         const request = async(link) => { 
@@ -29,7 +30,7 @@
             document.getElementById('title').innerHTML = meme.title; 
             document.getElementById('url').src = meme.url; 
             document.getElementById('subreddit').innerHTML += meme.subreddit;
-        } 
+        }
             main();
     </script>
 </html>
