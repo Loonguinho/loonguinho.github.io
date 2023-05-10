@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initiaç-scale=1"/> 
-        <meta http-equiv="refresh" content="30;url=http://127.0.0.1:5000"/>
+        <meta http-equiv="refresh" content="30"/>
         
         <style>
             body {background-color: black;background-repeat: no-repeat;background-position: top left;} 
